@@ -300,7 +300,7 @@ h1 {
 .section.blueprint {
   background:
     linear-gradient(135deg, rgba(0, 103, 168, 0.94), rgba(0, 154, 154, 0.9)),
-    url("assets/original/registan.jpg");
+    url("registan.jpg");
   background-size: cover;
   background-position: center;
   color: white;

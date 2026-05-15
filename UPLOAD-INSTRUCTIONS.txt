@@ -1,0 +1,12 @@
+NEW VATANDOSH WEBSITE - GITHUB UPLOAD INSTRUCTIONS
+
+Upload the contents of this folder to the GitHub repository:
+https://github.com/hakdost2006-ops/vatandosh-website
+
+Important:
+- Do not upload this folder as one folder.
+- Do not upload a zip file to GitHub.
+- Open this folder, select all files inside it, then upload those files.
+- If GitHub asks whether to replace existing files, choose to replace/commit them.
+
+This folder contains only the clean website files and images needed for Cloudflare Pages.
