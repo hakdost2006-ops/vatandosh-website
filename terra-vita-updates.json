@@ -1,0 +1,79 @@
+{
+  "lastUpdated": "June 20, 2026",
+  "campaignStatus": "Partner landing page launched",
+  "shelterSnapshot": {
+    "animalsInCare": "About 120",
+    "location": "Samarkand region, Uzbekistan",
+    "primaryNeed": "Food, veterinary care, medicine, shelter supplies, and adoption support",
+    "source": "Terra Vita public website"
+  },
+  "weeklyMessage": "Terra Vita is a temporary care center for homeless dogs and cats in Samarkand. The center depends on donations, volunteers, and community support to feed, treat, shelter, and place animals into homes.",
+  "urgentNeeds": [
+    "Monthly food support for dogs and cats",
+    "Veterinary medicines and emergency treatment",
+    "Sterilization and vaccination support",
+    "Cleaning supplies, bedding, transport, and repair materials",
+    "Adoption outreach and responsible ownership education"
+  ],
+  "featuredAnimals": [
+    {
+      "name": "Chelsea",
+      "type": "Dog",
+      "status": "Available through Terra Vita",
+      "story": "Chelsea is listed on Terra Vita's dog adoption page. Visitors can follow the official shelter link for the latest adoption details.",
+      "url": "https://www.terra-vita.uz/ru/find-pet/dogs"
+    },
+    {
+      "name": "Mika",
+      "type": "Cat",
+      "status": "Available through Terra Vita",
+      "story": "Mika is listed on Terra Vita's cat adoption page. Visitors can follow the official shelter link for the latest adoption details.",
+      "url": "https://www.terra-vita.uz/ru/find-pet/cats"
+    },
+    {
+      "name": "Raksha",
+      "type": "Dog",
+      "status": "Story featured by Terra Vita",
+      "story": "Terra Vita's blog includes Raksha's story, a reminder that many shelter animals need long-term care, advocacy, and patient adoption support.",
+      "url": "https://www.terra-vita.uz/ru/blog"
+    }
+  ],
+  "updates": [
+    {
+      "date": "June 20, 2026",
+      "title": "Vatandosh launches Terra Vita support page",
+      "text": "This page is designed for U.S. neighborhood sharing and will direct supporters to Terra Vita's official channels while explaining the wider animal welfare need in Uzbekistan."
+    },
+    {
+      "date": "June 20, 2026",
+      "title": "What we are tracking",
+      "text": "Weekly updates will focus on current shelter needs, featured animals, adoption stories, volunteer requests, and verified donation pathways."
+    }
+  ],
+  "officialLinks": [
+    {
+      "label": "Terra Vita website",
+      "url": "https://www.terra-vita.uz/ru/"
+    },
+    {
+      "label": "Support Terra Vita",
+      "url": "https://www.terra-vita.uz/ru/help"
+    },
+    {
+      "label": "Dogs available for adoption",
+      "url": "https://www.terra-vita.uz/ru/find-pet/dogs"
+    },
+    {
+      "label": "Cats available for adoption",
+      "url": "https://www.terra-vita.uz/ru/find-pet/cats"
+    },
+    {
+      "label": "Terra Vita Instagram",
+      "url": "https://instagram.com/terra_vita_sam"
+    },
+    {
+      "label": "Terra Vita Telegram",
+      "url": "https://t.me/terrasamarkand"
+    }
+  ]
+}
