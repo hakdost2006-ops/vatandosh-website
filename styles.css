@@ -653,6 +653,11 @@ textarea {
   padding: 1.35rem;
 }
 
+.donation-card.featured {
+  border-top: 5px solid var(--teal);
+  background: linear-gradient(135deg, white, #f3fbfa);
+}
+
 .person {
   display: grid;
   grid-template-columns: 124px minmax(0, 1fr);
