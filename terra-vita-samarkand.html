@@ -72,7 +72,7 @@
     <script>
       async function loadTerraVitaUpdates() {
         try {
-          const response = await fetch("terra-vita-updates.json?v=2026-06-20");
+          const response = await fetch("terra-vita-updates.json?v=2026-06-20-fund");
           if (!response.ok) throw new Error("Update file not available");
           const data = await response.json();
           document.getElementById("terra-status").textContent = data.campaignStatus || "Active Vatandosh support campaign";
