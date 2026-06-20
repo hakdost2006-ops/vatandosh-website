@@ -1,10 +1,10 @@
 {
   "lastUpdated": "June 20, 2026",
-  "campaignStatus": "Partner landing page launched",
+  "campaignStatus": "Vatandosh Terra Vita Support Fund is active",
   "shelterSnapshot": {
     "animalsInCare": "About 120",
     "location": "Samarkand region, Uzbekistan",
-    "primaryNeed": "Food, veterinary care, medicine, shelter supplies, and adoption support",
+    "primaryNeed": "Food, medicine, veterinary care, sterilization support, shelter supplies, and adoption outreach",
     "source": "Terra Vita public website"
   },
   "weeklyMessage": "Terra Vita is a temporary care center for homeless dogs and cats in Samarkand. The center depends on donations, volunteers, and community support to feed, treat, shelter, and place animals into homes.",
@@ -41,23 +41,23 @@
   "updates": [
     {
       "date": "June 20, 2026",
-      "title": "Vatandosh launches Terra Vita support page",
-      "text": "This page is designed for U.S. neighborhood sharing and will direct supporters to Terra Vita's official channels while explaining the wider animal welfare need in Uzbekistan."
+      "title": "Vatandosh Terra Vita Support Fund launched",
+      "text": "Donations are processed by Vatandosh Connect and designated for Terra Vita animal welfare support when donors write Terra Vita in the PayPal note."
     },
     {
       "date": "June 20, 2026",
       "title": "What we are tracking",
-      "text": "Weekly updates will focus on current shelter needs, featured animals, adoption stories, volunteer requests, and verified donation pathways."
+      "text": "Weekly updates will focus on current shelter needs, featured animals, adoption stories, volunteer requests, and transparent support updates."
     }
   ],
   "officialLinks": [
     {
-      "label": "Terra Vita website",
-      "url": "https://www.terra-vita.uz/ru/"
+      "label": "Donate through Vatandosh",
+      "url": "https://www.paypal.biz/Vatandosh"
     },
     {
-      "label": "Support Terra Vita",
-      "url": "https://www.terra-vita.uz/ru/help"
+      "label": "Terra Vita website",
+      "url": "https://www.terra-vita.uz/ru/"
     },
     {
       "label": "Dogs available for adoption",
@@ -69,7 +69,7 @@
     },
     {
       "label": "Terra Vita Instagram",
-      "url": "https://instagram.com/terra_vita_sam"
+      "url": "https://www.instagram.com/terra.uz?igsh=MjJiODU3eG1neGtn"
     },
     {
       "label": "Terra Vita Telegram",
