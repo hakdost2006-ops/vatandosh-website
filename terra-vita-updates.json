@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "July 20, 2026",
+  "lastUpdated": "July 27, 2026",
   "campaignStatus": "Vatandosh Terra Vita Support Fund is active",
   "shelterSnapshot": {
     "animalsInCare": "About 120",
@@ -7,10 +7,11 @@
     "primaryNeed": "Food, medicine, veterinary care, sterilization support, shelter supplies, and adoption outreach",
     "source": "Terra Vita public website"
   },
-  "weeklyMessage": "Terra Vita is a care center for homeless dogs and cats in Samarkand. The center depends on donations, volunteers, and community support to feed, treat, shelter, foster, repost, and place animals into homes. This week's public Telegram posts said shelter help remains needed, introduced Tuman after he came into shelter care, shared Marusya's adoption appeal, and urgently sought homes or temporary foster care for young puppies left in the heat.",
+  "weeklyMessage": "Terra Vita is a care center for homeless dogs and cats in Samarkand. The center depends on donations, volunteers, and community support to feed, treat, shelter, foster, repost, and place animals into homes. This week's public Telegram posts shared Murka's continuing recovery and special-care needs, reported that an orphaned older dog found a home through community help, and posted an urgent adoption appeal for a young kitten.",
   "urgentNeeds": [
     "Monthly food support for dogs and cats",
     "Veterinary medicines and emergency treatment",
+    "Wet food and ongoing veterinary aftercare for animals with special medical needs",
     "Sterilization and vaccination support",
     "Cleaning supplies, bedding, transport, and repair materials",
     "Fresh water access during hot weather, including bowls for homeless animals",
@@ -40,21 +41,36 @@
       "url": "https://t.me/terrasamarkand/21236"
     },
     {
-      "name": "Marusya",
+      "name": "Murka",
       "type": "Cat",
-      "status": "Adoption appeal shared on Telegram",
-      "story": "A July 17 public Telegram appeal describes Marusya as a people-friendly, sterilized cat who has been treated for parasites and is living in temporary foster care in Samarkand while waiting for a permanent home.",
-      "url": "https://t.me/terrasamarkand/21235"
+      "status": "Recovering in Terra Vita shelter care",
+      "story": "A July 21 public Telegram post says Murka is nearly recovered after three months of treatment. Terra Vita reports that she still needs soft wet food, continuing aftercare, and separate accommodation while her intestinal function recovers.",
+      "url": "https://t.me/terrasamarkand/21259"
     },
     {
-      "name": "Young puppies in Samarkand",
-      "type": "Dog",
-      "status": "Urgent home or foster appeal shared on Telegram",
-      "story": "A July 18 public Telegram appeal says puppies approximately six weeks old had been left in the heat and urgently needed permanent homes or temporary foster care.",
-      "url": "https://t.me/terrasamarkand/21238"
+      "name": "Young kitten in Samarkand",
+      "type": "Cat",
+      "status": "Urgent adoption appeal shared on Telegram",
+      "story": "A July 25 public Telegram appeal says a kitten approximately six weeks old urgently needs a home and is already litter-trained.",
+      "url": "https://t.me/terrasamarkand/21275"
     }
   ],
   "updates": [
+    {
+      "date": "July 25, 2026",
+      "title": "Young kitten urgently needs a home",
+      "text": "A public Telegram appeal says a kitten approximately six weeks old urgently needs a home in Samarkand and is already litter-trained."
+    },
+    {
+      "date": "July 21, 2026",
+      "title": "Murka continues recovering in shelter care",
+      "text": "Terra Vita's public Telegram channel says Murka is nearly recovered after three months of treatment. She still needs soft wet food and continuing aftercare and is living separately from the shelter's other cats while her intestinal function recovers."
+    },
+    {
+      "date": "July 21, 2026",
+      "title": "Community help finds a home for an orphaned dog",
+      "text": "Terra Vita's public Telegram channel reported that an approximately nine-year-old dog left without an owner after his guardian died found a home through combined community efforts."
+    },
     {
       "date": "July 20, 2026",
       "title": "Terra Vita shares a simple-help reminder",
