@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "July 27, 2026",
+  "lastUpdated": "August 3, 2026",
   "campaignStatus": "Vatandosh Terra Vita Support Fund is active",
   "shelterSnapshot": {
     "animalsInCare": "About 120",
@@ -7,7 +7,7 @@
     "primaryNeed": "Food, medicine, veterinary care, sterilization support, shelter supplies, and adoption outreach",
     "source": "Terra Vita public website"
   },
-  "weeklyMessage": "Terra Vita is a care center for homeless dogs and cats in Samarkand. The center depends on donations, volunteers, and community support to feed, treat, shelter, foster, repost, and place animals into homes. This week's public Telegram posts shared Murka's continuing recovery and special-care needs, reported that an orphaned older dog found a home through community help, and posted an urgent adoption appeal for a young kitten.",
+  "weeklyMessage": "Terra Vita is a care center for homeless dogs and cats in Samarkand. The center depends on donations, volunteers, and community support to feed, treat, shelter, foster, repost, and place animals into homes. This week's public Telegram archive shows several urgent Samarkand adoption appeals, including a two- to three-month-old male kitten, a mother cat with kittens, a three-and-a-half-month-old female kitten, and additional kittens seeking responsible homes.",
   "urgentNeeds": [
     "Monthly food support for dogs and cats",
     "Veterinary medicines and emergency treatment",
@@ -34,13 +34,6 @@
       "url": "https://www.terra-vita.uz/ru/find-pet/cats"
     },
     {
-      "name": "Tuman",
-      "type": "Dog",
-      "status": "In Terra Vita shelter care",
-      "story": "A July 18 public Telegram post says six-year-old Tuman came to Terra Vita after a veterinarian declined a former owner's request to euthanize him. The shelter reports that he is now free and happy in its care.",
-      "url": "https://t.me/terrasamarkand/21236"
-    },
-    {
       "name": "Murka",
       "type": "Cat",
       "status": "Recovering in Terra Vita shelter care",
@@ -48,14 +41,41 @@
       "url": "https://t.me/terrasamarkand/21259"
     },
     {
-      "name": "Young kitten in Samarkand",
+      "name": "Young male kitten in Samarkand",
       "type": "Cat",
       "status": "Urgent adoption appeal shared on Telegram",
-      "story": "A July 25 public Telegram appeal says a kitten approximately six weeks old urgently needs a home and is already litter-trained.",
-      "url": "https://t.me/terrasamarkand/21275"
+      "story": "An August 1 public Telegram appeal says a male kitten approximately two to three months old urgently needs a home in Samarkand.",
+      "url": "https://t.me/terrasamarkand/21298"
+    },
+    {
+      "name": "Three-color female kitten in Samarkand",
+      "type": "Cat",
+      "status": "Adoption appeal shared on Telegram",
+      "story": "An August 3 public Telegram appeal describes a three-and-a-half-month-old female kitten as healthy, social, litter-trained, parasite-treated, and eating dry food. The people sharing the appeal offered help with age-appropriate sterilization and vaccination.",
+      "url": "https://t.me/terrasamarkand/21307"
     }
   ],
   "updates": [
+    {
+      "date": "August 3, 2026",
+      "title": "Three-color kitten seeks a responsible home",
+      "text": "A public Telegram appeal says a three-and-a-half-month-old female kitten in Samarkand is healthy, social, litter-trained, parasite-treated, and eating dry food. The people sharing the appeal offered help with age-appropriate sterilization and vaccination."
+    },
+    {
+      "date": "August 3, 2026",
+      "title": "Additional kittens need homes",
+      "text": "Terra Vita's public Telegram archive shared a Samarkand request seeking caring adopters for several kittens."
+    },
+    {
+      "date": "August 1, 2026",
+      "title": "Mother cat and kittens urgently need a home",
+      "text": "A public Telegram appeal says a mother cat and her kittens in Samarkand urgently need a home."
+    },
+    {
+      "date": "August 1, 2026",
+      "title": "Young male kitten urgently needs a home",
+      "text": "A public Telegram appeal says a male kitten approximately two to three months old urgently needs a home in Samarkand."
+    },
     {
       "date": "July 25, 2026",
       "title": "Young kitten urgently needs a home",
