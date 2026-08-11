@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "August 3, 2026",
+  "lastUpdated": "August 10, 2026",
   "campaignStatus": "Vatandosh Terra Vita Support Fund is active",
   "shelterSnapshot": {
-    "animalsInCare": "About 120",
+    "animalsInCare": "More than 165",
     "location": "Samarkand region, Uzbekistan",
     "primaryNeed": "Food, medicine, veterinary care, sterilization support, shelter supplies, and adoption outreach",
-    "source": "Terra Vita public website"
+    "source": "Terra Vita public Telegram post dated August 9, 2026"
   },
-  "weeklyMessage": "Terra Vita is a care center for homeless dogs and cats in Samarkand. The center depends on donations, volunteers, and community support to feed, treat, shelter, foster, repost, and place animals into homes. This week's public Telegram archive shows several urgent Samarkand adoption appeals, including a two- to three-month-old male kitten, a mother cat with kittens, a three-and-a-half-month-old female kitten, and additional kittens seeking responsible homes.",
+  "weeklyMessage": "Terra Vita is a care center for homeless dogs and cats in Samarkand. The center depends on donations, volunteers, and community support to feed, treat, shelter, foster, repost, and place animals into homes. This week's public Telegram archive includes adoption appeals for kittens and puppies, a two-month-old male kitten seeking a responsible home, and Ryzhik, a formerly owned animal now living at the shelter. Terra Vita's August 9 post says more than 165 animals like Ryzhik are currently in its care.",
   "urgentNeeds": [
     "Monthly food support for dogs and cats",
     "Veterinary medicines and emergency treatment",
@@ -41,21 +41,41 @@
       "url": "https://t.me/terrasamarkand/21259"
     },
     {
-      "name": "Young male kitten in Samarkand",
-      "type": "Cat",
-      "status": "Urgent adoption appeal shared on Telegram",
-      "story": "An August 1 public Telegram appeal says a male kitten approximately two to three months old urgently needs a home in Samarkand.",
-      "url": "https://t.me/terrasamarkand/21298"
-    },
-    {
-      "name": "Three-color female kitten in Samarkand",
+      "name": "Two-month-old male kitten",
       "type": "Cat",
       "status": "Adoption appeal shared on Telegram",
-      "story": "An August 3 public Telegram appeal describes a three-and-a-half-month-old female kitten as healthy, social, litter-trained, parasite-treated, and eating dry food. The people sharing the appeal offered help with age-appropriate sterilization and vaccination.",
-      "url": "https://t.me/terrasamarkand/21307"
+      "story": "An August 9 public Telegram appeal says this small male kitten is approximately two months old, affectionate, independent, dewormed, and litter-trained. The appeal seeks responsible adopters in Samarkand or Tashkent.",
+      "url": "https://t.me/terrasamarkand/21331"
+    },
+    {
+      "name": "Ryzhik",
+      "type": "Animal",
+      "status": "At Terra Vita and seeking a responsible home",
+      "story": "Terra Vita's August 9 public Telegram post says Ryzhik was previously a household pet and is now at the shelter, where the center hopes to find kind and responsible adopters for him.",
+      "url": "https://t.me/terrasamarkand/21338"
     }
   ],
   "updates": [
+    {
+      "date": "August 9, 2026",
+      "title": "Ryzhik seeks a responsible home",
+      "text": "Terra Vita's public Telegram channel says Ryzhik was previously a household pet and is now at the shelter. The same post says more than 165 animals like him are in Terra Vita's care, many of whom may never find permanent homes."
+    },
+    {
+      "date": "August 9, 2026",
+      "title": "Two-month-old kitten seeks adopters",
+      "text": "A public Telegram appeal seeks responsible adopters in Samarkand or Tashkent for a small two-month-old male kitten described as affectionate, independent, dewormed, and litter-trained."
+    },
+    {
+      "date": "August 5, 2026",
+      "title": "Kittens need responsible homes",
+      "text": "Terra Vita's public Telegram archive shared a Samarkand adoption appeal for kittens and emphasized that animals should not be treated as toys for children."
+    },
+    {
+      "date": "August 5, 2026",
+      "title": "Two young puppies seek homes",
+      "text": "A public Telegram appeal says two young puppies in Samarkand are dewormed, treated for fleas, expected to remain small, and looking for homes."
+    },
     {
       "date": "August 3, 2026",
       "title": "Three-color kitten seeks a responsible home",
