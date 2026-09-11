@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "August 10, 2026",
+  "lastUpdated": "September 7, 2026",
   "campaignStatus": "Vatandosh Terra Vita Support Fund is active",
   "shelterSnapshot": {
-    "animalsInCare": "More than 165",
+    "animalsInCare": "More than 160",
     "location": "Samarkand region, Uzbekistan",
-    "primaryNeed": "Food, medicine, veterinary care, sterilization support, shelter supplies, and adoption outreach",
-    "source": "Terra Vita public Telegram post dated August 9, 2026"
+    "primaryNeed": "Help addressing a threat to the shelter's continued operation at its current site, plus food, medicine, veterinary care, sterilization support, shelter supplies, and adoption outreach",
+    "source": "Terra Vita public Telegram post dated September 6, 2026"
   },
-  "weeklyMessage": "Terra Vita is a care center for homeless dogs and cats in Samarkand. The center depends on donations, volunteers, and community support to feed, treat, shelter, foster, repost, and place animals into homes. This week's public Telegram archive includes adoption appeals for kittens and puppies, a two-month-old male kitten seeking a responsible home, and Ryzhik, a formerly owned animal now living at the shelter. Terra Vita's August 9 post says more than 165 animals like Ryzhik are currently in its care.",
+  "weeklyMessage": "Terra Vita is a care center for homeless dogs and cats in Samarkand. On September 6, the shelter said its continued operation at its current site and the welfare of more than 160 animals were under threat; it asked the public to repost the appeal and provide practical help. The week's public Telegram posts also included a shelter adoption appeal for Snezok, several community adoption appeals, and continued treatment support for a sick cat.",
   "urgentNeeds": [
     "Monthly food support for dogs and cats",
     "Veterinary medicines and emergency treatment",
@@ -16,210 +16,70 @@
     "Cleaning supplies, bedding, transport, and repair materials",
     "Fresh water access during hot weather, including bowls for homeless animals",
     "Temporary foster care for young animals awaiting homes",
-    "Adoption outreach, reposting, and responsible ownership education"
+    "Adoption outreach, reposting, and responsible ownership education",
+    "Public attention and practical help addressing the reported threat to the shelter's continued operation at its current site"
   ],
   "featuredAnimals": [
-    {
-      "name": "Chelsea",
-      "type": "Dog",
-      "status": "Available through Terra Vita",
-      "story": "Chelsea is listed on Terra Vita's dog adoption page. Visitors can follow the official shelter link for the latest adoption details.",
-      "url": "https://www.terra-vita.uz/ru/find-pet/dogs"
-    },
-    {
-      "name": "Mika",
-      "type": "Cat",
-      "status": "Available through Terra Vita",
-      "story": "Mika is listed on Terra Vita's cat adoption page. Visitors can follow the official shelter link for the latest adoption details.",
-      "url": "https://www.terra-vita.uz/ru/find-pet/cats"
-    },
-    {
-      "name": "Murka",
-      "type": "Cat",
-      "status": "Recovering in Terra Vita shelter care",
-      "story": "A July 21 public Telegram post says Murka is nearly recovered after three months of treatment. Terra Vita reports that she still needs soft wet food, continuing aftercare, and separate accommodation while her intestinal function recovers.",
-      "url": "https://t.me/terrasamarkand/21259"
-    },
-    {
-      "name": "Two-month-old male kitten",
-      "type": "Cat",
-      "status": "Adoption appeal shared on Telegram",
-      "story": "An August 9 public Telegram appeal says this small male kitten is approximately two months old, affectionate, independent, dewormed, and litter-trained. The appeal seeks responsible adopters in Samarkand or Tashkent.",
-      "url": "https://t.me/terrasamarkand/21331"
-    },
-    {
-      "name": "Ryzhik",
-      "type": "Animal",
-      "status": "At Terra Vita and seeking a responsible home",
-      "story": "Terra Vita's August 9 public Telegram post says Ryzhik was previously a household pet and is now at the shelter, where the center hopes to find kind and responsible adopters for him.",
-      "url": "https://t.me/terrasamarkand/21338"
-    }
+    {"name":"Chelsea","type":"Dog","status":"Available through Terra Vita","story":"Chelsea is listed on Terra Vita's dog adoption page. Visitors can follow the official shelter link for the latest adoption details.","url":"https://www.terra-vita.uz/ru/find-pet/dogs"},
+    {"name":"Mika","type":"Cat","status":"Available through Terra Vita","story":"Mika is listed on Terra Vita's cat adoption page. Visitors can follow the official shelter link for the latest adoption details.","url":"https://www.terra-vita.uz/ru/find-pet/cats"},
+    {"name":"Snezok","type":"Cat","status":"Available through Terra Vita","story":"Terra Vita says Snezok came to the shelter after being abandoned at a demolished home site. The shelter reports that he is shy, gentle, neutered, vaccinated, and ready for a responsible indoor home without children.","url":"https://t.me/terrasamarkand/21449"},
+    {"name":"Two-and-a-half-month-old female kitten","type":"Cat","status":"Community adoption appeal shared on Telegram","story":"A September 7 Samarkand appeal seeks a responsible indoor home for a healthy, litter-trained female kitten approximately two and a half months old.","url":"https://t.me/terrasamarkand/21479"},
+    {"name":"Two remaining puppies","type":"Dog","status":"Community adoption appeal shared on Telegram","story":"A September 7 Samarkand appeal says two puppies still need homes after the others in their group were placed.","url":"https://t.me/terrasamarkand/21485"}
   ],
   "updates": [
-    {
-      "date": "August 9, 2026",
-      "title": "Ryzhik seeks a responsible home",
-      "text": "Terra Vita's public Telegram channel says Ryzhik was previously a household pet and is now at the shelter. The same post says more than 165 animals like him are in Terra Vita's care, many of whom may never find permanent homes."
-    },
-    {
-      "date": "August 9, 2026",
-      "title": "Two-month-old kitten seeks adopters",
-      "text": "A public Telegram appeal seeks responsible adopters in Samarkand or Tashkent for a small two-month-old male kitten described as affectionate, independent, dewormed, and litter-trained."
-    },
-    {
-      "date": "August 5, 2026",
-      "title": "Kittens need responsible homes",
-      "text": "Terra Vita's public Telegram archive shared a Samarkand adoption appeal for kittens and emphasized that animals should not be treated as toys for children."
-    },
-    {
-      "date": "August 5, 2026",
-      "title": "Two young puppies seek homes",
-      "text": "A public Telegram appeal says two young puppies in Samarkand are dewormed, treated for fleas, expected to remain small, and looking for homes."
-    },
-    {
-      "date": "August 3, 2026",
-      "title": "Three-color kitten seeks a responsible home",
-      "text": "A public Telegram appeal says a three-and-a-half-month-old female kitten in Samarkand is healthy, social, litter-trained, parasite-treated, and eating dry food. The people sharing the appeal offered help with age-appropriate sterilization and vaccination."
-    },
-    {
-      "date": "August 3, 2026",
-      "title": "Additional kittens need homes",
-      "text": "Terra Vita's public Telegram archive shared a Samarkand request seeking caring adopters for several kittens."
-    },
-    {
-      "date": "August 1, 2026",
-      "title": "Mother cat and kittens urgently need a home",
-      "text": "A public Telegram appeal says a mother cat and her kittens in Samarkand urgently need a home."
-    },
-    {
-      "date": "August 1, 2026",
-      "title": "Young male kitten urgently needs a home",
-      "text": "A public Telegram appeal says a male kitten approximately two to three months old urgently needs a home in Samarkand."
-    },
-    {
-      "date": "July 25, 2026",
-      "title": "Young kitten urgently needs a home",
-      "text": "A public Telegram appeal says a kitten approximately six weeks old urgently needs a home in Samarkand and is already litter-trained."
-    },
-    {
-      "date": "July 21, 2026",
-      "title": "Murka continues recovering in shelter care",
-      "text": "Terra Vita's public Telegram channel says Murka is nearly recovered after three months of treatment. She still needs soft wet food and continuing aftercare and is living separately from the shelter's other cats while her intestinal function recovers."
-    },
-    {
-      "date": "July 21, 2026",
-      "title": "Community help finds a home for an orphaned dog",
-      "text": "Terra Vita's public Telegram channel reported that an approximately nine-year-old dog left without an owner after his guardian died found a home through combined community efforts."
-    },
-    {
-      "date": "July 20, 2026",
-      "title": "Terra Vita shares a simple-help reminder",
-      "text": "A public Telegram post shared the message that helping can be simple, reinforcing the shelter's ongoing call for community involvement."
-    },
-    {
-      "date": "July 18, 2026",
-      "title": "Shelter says support remains needed",
-      "text": "A public Telegram post stated that help for the shelter remains needed and reshared Terra Vita's official help guide and payment details."
-    },
-    {
-      "date": "July 18, 2026",
-      "title": "Tuman is now in Terra Vita's care",
-      "text": "Terra Vita's public Telegram channel said six-year-old Tuman came to the shelter after a veterinarian declined a former owner's request to euthanize him. The shelter reports that he is now free and happy in its care."
-    },
-    {
-      "date": "July 18, 2026",
-      "title": "Young puppies urgently need homes or foster care",
-      "text": "A public Telegram appeal says puppies approximately six weeks old had been left in the heat in Samarkand and urgently needed permanent homes or temporary foster care."
-    },
-    {
-      "date": "July 17, 2026",
-      "title": "Marusya is seeking a permanent home",
-      "text": "A public Telegram appeal describes Marusya as a sterilized, people-friendly cat who has been treated for parasites and is staying in temporary foster care in Samarkand while waiting for a home."
-    },
-    {
-      "date": "July 13, 2026",
-      "title": "Hot-weather water appeal shared for homeless animals",
-      "text": "Terra Vita's public Telegram channel asked residents to leave bowls of water for homeless dogs, cats, and birds during the heat, when access to water is especially important."
-    },
-    {
-      "date": "July 13, 2026",
-      "title": "Busya is seeking a safe indoor home",
-      "text": "A public Telegram appeal describes Busya as a two-year-old sterilized cat who is litter-trained, vaccinated, and accustomed to indoor life. The appeal asks for a caring apartment home and adopters willing to stay in occasional contact."
-    },
-    {
-      "date": "July 10, 2026",
-      "title": "Terra Vita renews its shelter-support reminder",
-      "text": "A public Telegram post reminded followers about the shelter's animals and again shared Terra Vita's official help guide and payment details, supporting the continued need for food, medicine, care supplies, and financial help."
-    },
-    {
-      "date": "July 9, 2026",
-      "title": "Young female puppy needs responsible adopters",
-      "text": "A public Telegram appeal says a female puppy about six weeks old is looking for kind and responsible adopters in Samarkand."
-    },
-    {
-      "date": "Viewed July 6, 2026",
-      "title": "Telegram archive shows active adoption appeals",
-      "text": "The latest public Telegram archive view includes Samarkand adoption appeals for a kitten, a four-month-old female puppy, a five-month-old female adolescent dog, and other young animals. The appeals emphasize responsible homes and practical help with vaccination or sterilization where needed."
-    },
-    {
-      "date": "Viewed July 6, 2026",
-      "title": "Shelter repair and daily-care needs remain current",
-      "text": "A public Telegram archive post said water had returned to the shelter but noted that things keep breaking or wearing out. This supports keeping food, medicine, cleaning supplies, repair materials, and general shelter support as current needs."
-    },
-    {
-      "date": "Viewed July 6, 2026",
-      "title": "Recovering young animal remains part of current support message",
-      "text": "The Telegram archive includes a post saying a young animal is recovering, livelier, happy to see people, and enjoying walks. The same post points supporters to Terra Vita's help guide and payment details."
-    },
-    {
-      "date": "June 29, 2026",
-      "title": "Telegram post reports a successful rescue outcome",
-      "text": "Terra Vita's public Telegram channel said a small dog in Samarkand was taken home after community reposts and local help. The post frames reposting and local care as practical ways supporters can help animals reach safety."
-    },
-    {
-      "date": "June 28, 2026",
-      "title": "Treatment support continues for a small dog",
-      "text": "A public Telegram post thanked supporters who helped with treatment for a small dog and said the treatment had started. This supports keeping veterinary care and emergency treatment among current priority needs."
-    },
-    {
-      "date": "June 20, 2026",
-      "title": "Vatandosh launches Terra Vita support page",
-      "text": "This page is designed for U.S. neighborhood sharing. Donations are processed by Vatandosh Connect and designated for Terra Vita animal welfare support when donors write Terra Vita in the PayPal note."
-    },
-    {
-      "date": "June 20, 2026",
-      "title": "What we are tracking",
-      "text": "Weekly updates will focus on current shelter needs, featured animals, adoption stories, volunteer requests, and verified donation pathways."
-    }
+    {"date":"September 7, 2026","title":"Two remaining puppies still need homes","text":"A community appeal shared by Terra Vita says two puppies remain in need of homes after the others in their group were placed."},
+    {"date":"September 7, 2026","title":"Young indoor kitten seeks a responsible home","text":"A Samarkand appeal seeks a responsible indoor home for a healthy, litter-trained female kitten approximately two and a half months old."},
+    {"date":"September 6, 2026","title":"Shelter reports a threat to its continued operation","text":"Terra Vita says the shelter's continued operation at its current site and the welfare of more than 160 animals are under threat. The shelter says it has nowhere to relocate and asks the public to repost the appeal and provide practical help."},
+    {"date":"September 5, 2026","title":"Three-month-old male kitten seeks a home","text":"A Samarkand community appeal shared by Terra Vita seeks a kind and responsible home for a three-month-old male kitten described as litter-trained and treated for parasites."},
+    {"date":"September 4, 2026","title":"Snezok is ready for a responsible home","text":"Terra Vita says Snezok came to the shelter after being abandoned at a demolished home site. The shelter reports that the shy, gentle cat has been cared for, neutered, and vaccinated and is seeking a responsible indoor home without children."},
+    {"date":"September 2, 2026","title":"Treatment appeal continues for a sick cat","text":"A community veterinary appeal shared by Terra Vita says treatment is helping a sick cat and asks for support to continue at least one more day of care."},
+    {"date":"September 1, 2026","title":"Young spaniel puppy urgently needs a home","text":"A Samarkand appeal shared by Terra Vita seeks a kind and responsible home for an affectionate, obedient three-month-old male spaniel puppy reportedly left outside after private-sector demolition."},
+    {"date":"August 31, 2026","title":"Community appeal seeks treatment help for a sick cat","text":"A community veterinary appeal shared by Terra Vita says a sick cat was taken to a veterinarian, needs serious treatment, and is expected to require several days of care. The post is a community appeal and does not identify the cat as a Terra Vita shelter animal."},
+    {"date":"August 31, 2026","title":"Found young pit bull needs its owner","text":"A public Telegram post asks for help identifying the owner of a young pit bull found in Samarkand wearing a collar."},
+    {"date":"August 30, 2026","title":"Mavi seeks a responsible home","text":"A public Telegram appeal describes Mavi as intelligent, gentle, and litter-trained and seeks a responsible home in Samarkand."},
+    {"date":"August 29, 2026","title":"Found dogs need their owners","text":"Public Telegram posts ask Samarkand residents to help identify the owners of found dogs, including a friendly dog near the Dalniy Lager market area and a cared-for young spaniel-type dog temporarily sheltered by a subscriber near the railway clinic."},
+    {"date":"August 28, 2026","title":"Missing young female puppy appeal","text":"A public Telegram appeal asks the community to help locate a missing female puppy approximately three and a half months old near the regional traffic-police area in Samarkand."},
+    {"date":"August 24, 2026","title":"Two young male kittens urgently need homes","text":"A public Telegram appeal seeks homes in Samarkand for two male kittens approximately two months old."},
+    {"date":"August 23, 2026","title":"Vaccinated and neutered ginger cat seeks a home","text":"A public Telegram appeal says a ginger house cat approximately one and a half years old is neutered, vaccinated, and looking for a home in Samarkand."},
+    {"date":"August 22, 2026","title":"Two-month-old kittens seek responsible homes","text":"A public Telegram appeal seeks responsible and kind homes in Samarkand for several kittens approximately two months old."},
+    {"date":"August 21, 2026","title":"Shelter thanks visitors for needed gifts","text":"Terra Vita's public Telegram channel thanked visitors for bringing gifts described as very needed by the shelter and said the animals welcomed the guests' attention."},
+    {"date":"August 19, 2026","title":"Terra Vita joins animal-welfare television discussion","text":"A post shared by Terra Vita says the shelter's director participated with other animal-welfare and environmental representatives in a television discussion about animal protection in Uzbekistan."},
+    {"date":"August 17, 2026","title":"Orphaned puppies need homes","text":"A public Telegram appeal says several young puppies in Samarkand were left alone after their mother disappeared and asks the community to help find homes for them."},
+    {"date":"August 9, 2026","title":"Ryzhik seeks a responsible home","text":"Terra Vita's public Telegram channel says Ryzhik was previously a household pet and is now at the shelter. The same post says more than 165 animals like him are in Terra Vita's care, many of whom may never find permanent homes."},
+    {"date":"August 9, 2026","title":"Two-month-old kitten seeks adopters","text":"A public Telegram appeal seeks responsible adopters in Samarkand or Tashkent for a small two-month-old male kitten described as affectionate, independent, dewormed, and litter-trained."},
+    {"date":"August 5, 2026","title":"Kittens need responsible homes","text":"Terra Vita's public Telegram archive shared a Samarkand adoption appeal for kittens and emphasized that animals should not be treated as toys for children."},
+    {"date":"August 5, 2026","title":"Two young puppies seek homes","text":"A public Telegram appeal says two young puppies in Samarkand are dewormed, treated for fleas, expected to remain small, and looking for homes."},
+    {"date":"August 3, 2026","title":"Three-color kitten seeks a responsible home","text":"A public Telegram appeal says a three-and-a-half-month-old female kitten in Samarkand is healthy, social, litter-trained, parasite-treated, and eating dry food. The people sharing the appeal offered help with age-appropriate sterilization and vaccination."},
+    {"date":"August 3, 2026","title":"Additional kittens need homes","text":"Terra Vita's public Telegram archive shared a Samarkand request seeking caring adopters for several kittens."},
+    {"date":"August 1, 2026","title":"Mother cat and kittens urgently need a home","text":"A public Telegram appeal says a mother cat and her kittens in Samarkand urgently need a home."},
+    {"date":"August 1, 2026","title":"Young male kitten urgently needs a home","text":"A public Telegram appeal says a male kitten approximately two to three months old urgently needs a home in Samarkand."},
+    {"date":"July 25, 2026","title":"Young kitten urgently needs a home","text":"A public Telegram appeal says a kitten approximately six weeks old urgently needs a home in Samarkand and is already litter-trained."},
+    {"date":"July 21, 2026","title":"Murka continues recovering in shelter care","text":"Terra Vita's public Telegram channel says Murka is nearly recovered after three months of treatment. She still needs soft wet food and continuing aftercare and is living separately from the shelter's other cats while her intestinal function recovers."},
+    {"date":"July 21, 2026","title":"Community help finds a home for an orphaned dog","text":"Terra Vita's public Telegram channel reported that an approximately nine-year-old dog left without an owner after his guardian died found a home through combined community efforts."},
+    {"date":"July 20, 2026","title":"Terra Vita shares a simple-help reminder","text":"A public Telegram post shared the message that helping can be simple, reinforcing the shelter's ongoing call for community involvement."},
+    {"date":"July 18, 2026","title":"Shelter says support remains needed","text":"A public Telegram post stated that help for the shelter remains needed and reshared Terra Vita's official help guide and payment details."},
+    {"date":"July 18, 2026","title":"Tuman is now in Terra Vita's care","text":"Terra Vita's public Telegram channel said six-year-old Tuman came to the shelter after a veterinarian declined a former owner's request to euthanize him. The shelter reports that he is now free and happy in its care."},
+    {"date":"July 18, 2026","title":"Young puppies urgently need homes or foster care","text":"A public Telegram appeal says puppies approximately six weeks old had been left in the heat in Samarkand and urgently needed permanent homes or temporary foster care."},
+    {"date":"July 17, 2026","title":"Marusya is seeking a permanent home","text":"A public Telegram appeal describes Marusya as a sterilized, people-friendly cat who has been treated for parasites and is staying in temporary foster care in Samarkand while waiting for a home."},
+    {"date":"July 13, 2026","title":"Hot-weather water appeal shared for homeless animals","text":"Terra Vita's public Telegram channel asked residents to leave bowls of water for homeless dogs, cats, and birds during the heat, when access to water is especially important."},
+    {"date":"July 13, 2026","title":"Busya is seeking a safe indoor home","text":"A public Telegram appeal describes Busya as a two-year-old sterilized cat who is litter-trained, vaccinated, and accustomed to indoor life. The appeal asks for a caring apartment home and adopters willing to stay in occasional contact."},
+    {"date":"July 10, 2026","title":"Terra Vita renews its shelter-support reminder","text":"A public Telegram post reminded followers about the shelter's animals and again shared Terra Vita's official help guide and payment details, supporting the continued need for food, medicine, care supplies, and financial help."},
+    {"date":"July 9, 2026","title":"Young female puppy needs responsible adopters","text":"A public Telegram appeal says a female puppy about six weeks old is looking for kind and responsible adopters in Samarkand."},
+    {"date":"Viewed July 6, 2026","title":"Telegram archive shows active adoption appeals","text":"The latest public Telegram archive view includes Samarkand adoption appeals for a kitten, a four-month-old female puppy, a five-month-old female adolescent dog, and other young animals. The appeals emphasize responsible homes and practical help with vaccination or sterilization where needed."},
+    {"date":"Viewed July 6, 2026","title":"Shelter repair and daily-care needs remain current","text":"A public Telegram archive post said water had returned to the shelter but noted that things keep breaking or wearing out. This supports keeping food, medicine, cleaning supplies, repair materials, and general shelter support as current needs."},
+    {"date":"Viewed July 6, 2026","title":"Recovering young animal remains part of current support message","text":"The Telegram archive includes a post saying a young animal is recovering, livelier, happy to see people, and enjoying walks. The same post points supporters to Terra Vita's help guide and payment details."},
+    {"date":"June 29, 2026","title":"Telegram post reports a successful rescue outcome","text":"Terra Vita's public Telegram channel said a small dog in Samarkand was taken home after community reposts and local help. The post frames reposting and local care as practical ways supporters can help animals reach safety."},
+    {"date":"June 28, 2026","title":"Treatment support continues for a small dog","text":"A public Telegram post thanked supporters who helped with treatment for a small dog and said the treatment had started. This supports keeping veterinary care and emergency treatment among current priority needs."},
+    {"date":"June 20, 2026","title":"Vatandosh launches Terra Vita support page","text":"This page is designed for U.S. neighborhood sharing. Donations are processed by Vatandosh Connect and designated for Terra Vita animal welfare support when donors write Terra Vita in the PayPal note."},
+    {"date":"June 20, 2026","title":"What we are tracking","text":"Weekly updates will focus on current shelter needs, featured animals, adoption stories, volunteer requests, and verified donation pathways."}
   ],
   "officialLinks": [
-    {
-      "label": "Terra Vita website",
-      "url": "https://www.terra-vita.uz/ru/"
-    },
-    {
-      "label": "Donate through Vatandosh",
-      "url": "https://www.paypal.biz/Vatandosh"
-    },
-    {
-      "label": "Dogs available for adoption",
-      "url": "https://www.terra-vita.uz/ru/find-pet/dogs"
-    },
-    {
-      "label": "Cats available for adoption",
-      "url": "https://www.terra-vita.uz/ru/find-pet/cats"
-    },
-    {
-      "label": "Terra Vita Instagram",
-      "url": "https://www.instagram.com/terra.uz?igsh=MjJiODU3eG1neGtn"
-    },
-    {
-      "label": "Terra Vita Telegram",
-      "url": "https://t.me/terrasamarkand"
-    },
-    {
-      "label": "Terra Vita Telegram public archive",
-      "url": "https://t.me/s/terrasamarkand"
-    }
+    {"label":"Terra Vita website","url":"https://www.terra-vita.uz/ru/"},
+    {"label":"Donate through Vatandosh","url":"https://www.paypal.biz/Vatandosh"},
+    {"label":"Dogs available for adoption","url":"https://www.terra-vita.uz/ru/find-pet/dogs"},
+    {"label":"Cats available for adoption","url":"https://www.terra-vita.uz/ru/find-pet/cats"},
+    {"label":"Terra Vita Instagram","url":"https://www.instagram.com/terra_vita_sam"},
+    {"label":"Terra Vita Telegram","url":"https://t.me/terrasamarkand"},
+    {"label":"Terra Vita Telegram public archive","url":"https://t.me/s/terrasamarkand"}
   ]
 }
