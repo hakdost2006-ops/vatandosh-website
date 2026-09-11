@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Terra Vita Pilot Transparency Portal | Vatandosh Connect</title>
+    <meta name="description" content="Follow the Terra Vita animal welfare pilot in Samarkand: funds raised and used, current needs, animal counts, reports, evidence, and outcomes.">
+    <meta property="og:title" content="Terra Vita Pilot Transparency Portal">
+    <meta property="og:description" content="A manually updated public record of the Vatandosh–Terra Vita animal welfare pilot in Samarkand, Uzbekistan.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vatandosh.org/terra-vita-transparency">
+    <link rel="icon" href="assets/logos/vatandosh-logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css?v=terra-vita-transparency-1">
+    <style>
+      .portal-hero { min-height: auto; padding: 5.5rem 0 4.5rem; align-items: center; background: radial-gradient(circle at 78% 18%, rgba(214, 169, 59, 0.2), transparent 28%), radial-gradient(circle at 92% 88%, rgba(0, 154, 154, 0.23), transparent 33%), linear-gradient(135deg, #0b2831 0%, #0d4654 58%, #0067a8 100%); }
+      .portal-hero::before { display: none; }
+      .portal-hero .hero-content { padding: 0; }
+      .portal-hero-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(270px, 0.6fr); gap: 3rem; align-items: center; }
+      .portal-hero h1 { max-width: 860px; font-size: clamp(2.65rem, 6vw, 5.4rem); line-height: 0.98; letter-spacing: -0.045em; }
+      .portal-hero p { max-width: 730px; }
+      .portal-kicker { display: flex; flex-wrap: wrap; gap: 0.65rem; margin-bottom: 1.25rem; }
+      .pilot-badge, .manual-badge, .data-badge { display: inline-flex; align-items: center; gap: 0.45rem; min-height: 30px; padding: 0.35rem 0.7rem; border-radius: 999px; font-size: 0.76rem; font-weight: 900; letter-spacing: 0.04em; text-transform: uppercase; }
+      .pilot-badge { background: var(--gold); color: var(--night); }
+      .manual-badge { border: 1px solid rgba(255,255,255,0.32); color: white; background: rgba(255,255,255,0.08); }
+      .manual-badge::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #7be1c3; box-shadow: 0 0 0 4px rgba(123,225,195,0.13); }
+      .hero-seal { justify-self: end; width: min(300px, 100%); aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; text-align: center; padding: 2.2rem; border: 1px solid rgba(255,255,255,0.24); background: rgba(255,255,255,0.08); box-shadow: inset 0 0 0 12px rgba(255,255,255,0.03), 0 26px 70px rgba(0,0,0,0.2); }
+      .hero-seal img { width: 78%; height: auto; margin: 0 auto 0.85rem; }
+      .hero-seal small { color: rgba(255,255,255,0.74); font-weight: 700; line-height: 1.4; }
+      .portal-nav { background: #fff; border-bottom: 1px solid var(--line); }
+      .portal-nav .container { display: flex; gap: 0.4rem; overflow-x: auto; padding-top: 0.7rem; padding-bottom: 0.7rem; scrollbar-width: thin; }
+      .portal-nav a { flex: 0 0 auto; padding: 0.5rem 0.78rem; border-radius: 999px; color: var(--muted); text-decoration: none; font-size: 0.84rem; font-weight: 800; }
+      .portal-nav a:hover { color: var(--blue); background: var(--soft); }
+      .data-strip { padding: 1rem 1.25rem; background: #fff8e5; border-bottom: 1px solid #efd995; }
+      .data-strip .container { display: flex; align-items: flex-start; gap: 0.75rem; }
+      .data-strip strong { color: var(--night); white-space: nowrap; }
+      .data-strip p { margin: 0; color: #665525; }
+      .dashboard-shell { margin-top: -1.7rem; position: relative; z-index: 3; }
+      .financial-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+      .finance-card { padding: 1.4rem; border: 1px solid var(--line); border-radius: 12px; background: white; box-shadow: var(--shadow); }
+      .finance-card:first-child { border-top: 5px solid var(--blue); }
+      .finance-card:nth-child(2) { border-top: 5px solid var(--teal); }
+      .finance-card:nth-child(3) { border-top: 5px solid var(--gold); }
+      .finance-label { color: var(--muted); font-weight: 800; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.06em; }
+      .finance-value { display: block; margin: 0.5rem 0 0.35rem; color: var(--night); font-size: clamp(2.35rem, 5vw, 4rem); line-height: 1; letter-spacing: -0.04em; }
+      .finance-status { display: flex; align-items: center; gap: 0.45rem; color: var(--muted); font-size: 0.86rem; }
+      .finance-status::before { content: "Pending"; padding: 0.18rem 0.42rem; border-radius: 4px; background: #f5ead0; color: #735b1e; font-size: 0.65rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.04em; }
+      .snapshot-grid { display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 1rem; }
+      .snapshot-card { padding: clamp(1.5rem, 4vw, 2.4rem); border-radius: 14px; background: var(--night); color: white; overflow: hidden; position: relative; }
+      .snapshot-card::after { content: ""; position: absolute; width: 240px; height: 240px; right: -90px; bottom: -120px; border-radius: 50%; background: rgba(0,154,154,0.18); }
+      .snapshot-card .eyebrow { position: relative; z-index: 1; }
+      .animal-totals { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem; position: relative; z-index: 1; }
+      .animal-total { padding-right: 1rem; border-right: 1px solid rgba(255,255,255,0.18); }
+      .animal-total:last-child { border: 0; }
+      .animal-total strong { display: block; color: white; font-size: clamp(2.8rem, 7vw, 5rem); line-height: 0.95; letter-spacing: -0.05em; }
+      .animal-total span { color: rgba(255,255,255,0.76); }
+      .breakdown { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-top: 1.4rem; position: relative; z-index: 1; }
+      .breakdown span { padding: 0.4rem 0.65rem; border-radius: 999px; background: rgba(255,255,255,0.1); font-size: 0.82rem; }
+      .need-card { display: grid; align-content: space-between; padding: clamp(1.5rem, 4vw, 2.4rem); border-radius: 14px; background: var(--gold); color: var(--night); }
+      .need-card .eyebrow { color: var(--night); opacity: 0.74; }
+      .need-card strong { display: block; margin: 1.25rem 0 0.4rem; font-size: clamp(3.4rem, 8vw, 6.2rem); line-height: 0.9; letter-spacing: -0.06em; }
+      .need-card p { margin-bottom: 0; font-weight: 700; }
+      .section-note { max-width: 680px; color: var(--muted); }
+      .category-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+      .category-card { padding: 1.35rem; border: 1px solid var(--line); border-radius: 10px; background: white; }
+      .category-number { display: grid; place-items: center; width: 34px; height: 34px; margin-bottom: 1rem; border-radius: 50%; background: var(--soft); color: var(--teal); font-size: 0.78rem; font-weight: 900; }
+      .category-card h3 { margin-bottom: 0.45rem; color: var(--night); }
+      .category-card p { margin: 0; color: var(--muted); }
+      .flow-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; counter-reset: flow; }
+      .flow-step { position: relative; padding: 1.4rem 1.6rem 1.4rem 0; counter-increment: flow; }
+      .flow-step:not(:last-child)::after { content: "→"; position: absolute; top: 1.25rem; right: 0.35rem; color: var(--gold); font-size: 1.7rem; }
+      .flow-step::before { content: "0" counter(flow); display: block; margin-bottom: 0.85rem; color: var(--teal); font-size: 0.76rem; font-weight: 900; letter-spacing: 0.08em; }
+      .flow-step h3 { color: var(--night); }
+      .flow-step p { margin-bottom: 0; color: var(--muted); font-size: 0.94rem; }
+      .update-panel { display: grid; grid-template-columns: 0.35fr 1fr; gap: 2rem; padding: clamp(1.6rem, 4vw, 2.6rem); border-radius: 14px; background: white; border: 1px solid var(--line); box-shadow: var(--shadow); }
+      .update-date { color: var(--blue); font-weight: 900; text-transform: uppercase; letter-spacing: 0.06em; }
+      .update-panel h3 { margin-top: 0; color: var(--night); font-size: clamp(1.5rem, 3vw, 2.3rem); }
+      .update-source { color: var(--muted); font-size: 0.86rem; }
+      .records-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 1rem; }
+      .record-card { min-height: 310px; padding: clamp(1.5rem, 4vw, 2.2rem); border: 1px solid var(--line); border-radius: 14px; background: white; display: flex; flex-direction: column; }
+      .record-icon { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 10px; background: var(--soft); color: var(--blue); font-weight: 900; }
+      .record-card h3 { color: var(--night); }
+      .record-card p { color: var(--muted); }
+      .record-card .button-ghost, .disabled-button { margin-top: auto; align-self: flex-start; }
+      .disabled-button { display: inline-flex; min-height: 44px; align-items: center; padding: 0.72rem 1rem; border-radius: var(--radius); border: 1px solid var(--line); background: #f4f6f5; color: #718084; font-weight: 800; cursor: not-allowed; }
+      .gallery-placeholders { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-top: auto; }
+      .gallery-placeholder { min-height: 125px; display: grid; place-items: center; text-align: center; padding: 1rem; border: 1px solid #b7cfcb; border-radius: 8px; background: var(--soft); color: var(--muted); font-size: 0.8rem; font-weight: 800; }
+      .donate-band { background: var(--night); color: white; }
+      .donate-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+      .donate-option { padding: 1.6rem; border: 1px solid rgba(255,255,255,0.16); border-radius: 12px; background: rgba(255,255,255,0.06); }
+      .donate-option h3 { color: white; }
+      .donate-option p { color: rgba(255,255,255,0.72); }
+      .donate-option .disabled-button { border-color: rgba(255,255,255,0.18); background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); }
+      .partner-panel { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2rem; align-items: center; padding: clamp(1.8rem, 5vw, 3.2rem); border-radius: 14px; background: linear-gradient(135deg, #edf8f5, #f7fbfa); border: 1px solid var(--line); }
+      .partner-panel h2 { max-width: 700px; }
+      .partner-points { margin: 0; padding: 0; list-style: none; }
+      .partner-points li { padding: 0.7rem 0 0.7rem 1.6rem; border-bottom: 1px solid var(--line); position: relative; font-weight: 700; }
+      .partner-points li::before { content: "+"; position: absolute; left: 0; color: var(--teal); font-weight: 900; }
+      .source-note { padding: 1rem; border-left: 4px solid var(--teal); background: var(--soft); color: var(--muted); font-size: 0.9rem; }
+      @media (max-width: 900px) { .portal-hero-grid, .snapshot-grid, .records-grid, .partner-panel { grid-template-columns: 1fr; } .hero-seal { display: none; } .financial-grid, .category-grid { grid-template-columns: repeat(2, 1fr); } .finance-card:last-child { grid-column: span 2; } .flow-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; } .flow-step:not(:last-child)::after { display: none; } .update-panel { grid-template-columns: 1fr; gap: 0.7rem; } }
+      @media (max-width: 620px) { .portal-hero { padding: 4.3rem 0 3.5rem; } .portal-hero h1 { font-size: clamp(2.55rem, 15vw, 4rem); } .financial-grid, .category-grid, .flow-grid, .donate-grid { grid-template-columns: 1fr; } .finance-card:last-child { grid-column: auto; } .animal-totals { grid-template-columns: 1fr; } .animal-total { padding-bottom: 1rem; border-right: 0; border-bottom: 1px solid rgba(255,255,255,0.18); } .gallery-placeholders { grid-template-columns: 1fr; } .gallery-placeholder { min-height: 86px; } .data-strip .container { display: block; } }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-shell">
+        <a class="brand" href="index.html" aria-label="Vatandosh Connect home"><img class="brand-logo" src="assets/logos/vatandosh-logo.png" alt="Vatandosh Connect"></a>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="about.html">About</a>
+          <a href="our-work.html">Our Work</a>
+          <a href="transcaspian-corridor.html">TransCaspian</a>
+          <a href="insights.html">Insights</a>
+          <a href="terra-vita-samarkand.html" aria-current="page">Terra Vita</a>
+          <a href="transparency.html">Transparency</a>
+          <a href="contact.html">Partner</a>
+          <a href="donate.html" class="button">Donate</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero portal-hero">
+        <div class="hero-content portal-hero-grid">
+          <div>
+            <div class="portal-kicker"><span class="pilot-badge">Pilot portal</span><span class="manual-badge">Manually updated</span></div>
+            <span class="eyebrow">Vatandosh Connect × Terra Vita</span>
+            <h1>Every contribution. Every expense. Visible.</h1>
+            <p>A public record for the Terra Vita animal welfare pilot in Samarkand—built for donors, business partners, Payme, and grant funders to follow needs, spending, evidence, and outcomes.</p>
+            <div class="hero-actions">
+              <a class="button-secondary" href="#financials">View the ledger</a>
+              <a class="button-ghost" href="#donate">Support the pilot</a>
+            </div>
+          </div>
+          <div class="hero-seal" aria-hidden="true">
+            <div><img src="assets/logos/terra-vita-logo-white.svg" alt=""><small>Samarkand, Uzbekistan<br>Animal care transparency pilot</small></div>
+          </div>
+        </div>
+      </section>
+
+      <nav class="portal-nav" aria-label="Portal sections">
+        <div class="container">
+          <a href="#financials">Funds</a><a href="#snapshot">Animals & needs</a><a href="#categories">Budget</a><a href="#how-it-works">How it works</a><a href="#updates">Updates</a><a href="#records">Reports & evidence</a><a href="#partners">Business partners</a>
+        </div>
+      </nav>
+
+      <div class="data-strip" role="note">
+        <div class="container"><strong>Pilot data notice</strong><p>Information is entered and reviewed manually during this pilot. Financial totals will appear only after the first report is received and reconciled. Last updated <span data-last-updated>August 7, 2026</span>.</p></div>
+      </div>
+
+      <section class="section dashboard-shell" id="financials">
+        <div class="container">
+          <div class="financial-grid" aria-label="Pilot financial summary">
+            <article class="finance-card"><span class="finance-label">Total raised</span><strong class="finance-value" data-financial="totalRaised">—</strong><span class="finance-status">Awaiting verified report</span></article>
+            <article class="finance-card"><span class="finance-label">Total spent</span><strong class="finance-value" data-financial="totalSpent">—</strong><span class="finance-status">Awaiting verified report</span></article>
+            <article class="finance-card"><span class="finance-label">Current balance</span><strong class="finance-value" data-financial="currentBalance">—</strong><span class="finance-status">Awaiting verified report</span></article>
+          </div>
+          <p class="source-note"><strong>No sample totals are shown.</strong> A dash means the number is not yet reported—not zero. Once reporting begins, Vatandosh will publish reconciled U.S. gifts designated for Terra Vita and documented pilot expenses.</p>
+        </div>
+      </section>
+
+      <section class="section soft" id="snapshot">
+        <div class="container snapshot-grid">
+          <article class="snapshot-card">
+            <span class="eyebrow">Current care snapshot</span>
+            <div class="animal-totals">
+              <div class="animal-total"><strong data-animal="onsite">166</strong><span>animals onsite</span></div>
+              <div class="animal-total"><strong><span aria-hidden="true">≈</span><span data-animal="fosterTemporary">30</span></strong><span>in foster or temporary care</span></div>
+            </div>
+            <div class="breakdown"><span>135 dogs</span><span>30 cats</span><span>1 donkey</span><span>Partner-reported, August 2026</span></div>
+          </article>
+          <article class="need-card">
+            <div><span class="eyebrow">Monthly food need</span><strong><span aria-hidden="true">≈</span>$<span data-need="monthlyFoodUsd">880</span></strong></div>
+            <p>Food is a daily commitment. This estimate covers staples and supplemental food for animals in onsite and temporary care.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="categories">
+        <div class="container">
+          <div class="section-head">
+            <div><span class="eyebrow">Budget framework</span><h2>Six categories. One traceable record.</h2></div>
+            <p>Every reported pilot expense will be assigned to a consistent category, helping donors compare spending with current shelter needs.</p>
+          </div>
+          <div class="category-grid">
+            <article class="category-card"><span class="category-number">01</span><h3>Food</h3><p>Daily food for dogs, cats, the shelter donkey, and animals in temporary care.</p></article>
+            <article class="category-card"><span class="category-number">02</span><h3>Veterinary care</h3><p>Exams, tests, imaging, medicines, urgent treatment, and recovery care.</p></article>
+            <article class="category-card"><span class="category-number">03</span><h3>Sterilization</h3><p>Procedures that reduce future suffering and pressure on shelter capacity.</p></article>
+            <article class="category-card"><span class="category-number">04</span><h3>Vaccination & parasite treatment</h3><p>Disease prevention and flea, tick, and parasite control for animals in care.</p></article>
+            <article class="category-card"><span class="category-number">05</span><h3>Sanitation & utilities</h3><p>Cleaning, garbage removal, electricity, gas, water-system upkeep, and supplies.</p></article>
+            <article class="category-card"><span class="category-number">06</span><h3>Transport</h3><p>Rescue trips, veterinary visits, and movement of animals and essential supplies.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section soft" id="how-it-works">
+        <div class="container">
+          <div class="section-head"><div><span class="eyebrow">How funds are used</span><h2>From contribution to public record.</h2></div><p>Vatandosh remains responsible for U.S. funds it receives. Terra Vita provides local care and monthly documentation.</p></div>
+          <div class="flow-grid">
+            <article class="flow-step"><h3>Receive & designate</h3><p>Vatandosh records U.S. gifts marked “Terra Vita.” Local gifts continue through Terra Vita’s established payment options.</p></article>
+            <article class="flow-step"><h3>Approve the need</h3><p>Support is matched to urgent, eligible care needs and one of the six public budget categories.</p></article>
+            <article class="flow-step"><h3>Pay & document</h3><p>Funds may support verified transfers, direct vendor payments, or documented reimbursements, depending on the situation.</p></article>
+            <article class="flow-step"><h3>Reconcile & publish</h3><p>Vatandosh reviews available receipts, invoices, screenshots, photos, expense notes, and outcome counts before updating this portal.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="updates">
+        <div class="container">
+          <div class="section-head"><div><span class="eyebrow">Latest update</span><h2>Building the reporting habit.</h2></div><p>Updates will separate partner-reported facts, reviewed financial figures, and documented outcomes so readers can see the level of evidence behind each claim.</p></div>
+          <article class="update-panel">
+            <div><span class="update-date" data-update-date>August 7, 2026</span></div>
+            <div><h3 data-update-title>Pilot reporting framework established</h3><p data-update-summary>Terra Vita has agreed to provide monthly reporting by the 25th of each month, including available photos, receipts, invoices, payment screenshots, and outcome notes. Financial totals will remain unpublished until the first report is reconciled.</p><span class="update-source">Source: <span data-update-source>Vatandosh–Terra Vita partner documentation</span></span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section soft" id="records">
+        <div class="container">
+          <div class="section-head"><div><span class="eyebrow">Reports & evidence</span><h2>The audit trail starts here.</h2></div><p>This section states the reporting standard before funds are publicly summarized: reports, records, and evidence will be added only after review.</p></div>
+          <div class="records-grid">
+            <article class="record-card">
+              <span class="record-icon" aria-hidden="true">PDF</span>
+              <h3>Monthly pilot report</h3>
+              <p>No monthly support report has been issued yet. The first downloadable report will summarize funds received, expenses by category, current animal counts, activities, and outcomes for the reporting month.</p>
+              <span class="disabled-button" aria-disabled="true">No report issued yet</span>
+            </article>
+            <article class="record-card">
+              <span class="record-icon" aria-hidden="true">EV</span>
+              <h3>Evidence & photo gallery</h3>
+              <p>Approved records will be added after review, with sensitive personal, banking, and animal-care information protected.</p>
+              <div class="gallery-placeholders" aria-label="Evidence record categories"><div class="gallery-placeholder">Receipts & invoices<br>posted after reports</div><div class="gallery-placeholder">Approved care photos<br>used with partner consent</div><div class="gallery-placeholder">Outcome evidence<br>linked to updates</div></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section donate-band" id="donate">
+        <div class="container">
+          <div class="section-head"><div><span class="eyebrow">Support Terra Vita</span><h2>Two giving routes. One shared purpose.</h2></div><p>Choose the route appropriate to your location. The local Payme/QR button is reserved for future integration and does not collect payment today.</p></div>
+          <div class="donate-grid">
+            <article class="donate-option"><span class="pilot-badge">U.S. donors</span><h3>Give through Vatandosh Connect</h3><p>Donations are processed by Vatandosh Connect, a U.S. 501(c)(3). Write “Terra Vita” in the PayPal note so the gift can be tracked for this initiative.</p><a class="button-secondary" href="https://www.paypal.biz/Vatandosh">Donate through Vatandosh</a></article>
+            <article class="donate-option"><span class="manual-badge">Uzbekistan</span><h3>Local Terra Vita / Payme</h3><p>Local giving channels are handled separately by Terra Vita and local payment partners. Vatandosh will list a local method only after the route is confirmed and tested.</p><span class="disabled-button" aria-disabled="true">Local route under review</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="partners">
+        <div class="container partner-panel">
+          <div><span class="eyebrow">Corporate partnership</span><h2>Join the “Business for Animals” pilot.</h2><p class="lead">A practical sponsorship pathway for businesses that want to fund a monthly care category, match employee giving, provide in-kind supplies, or support better animal-welfare reporting in Samarkand.</p><div class="hero-actions"><a class="button" href="mailto:info@vatandosh.org?subject=Business%20for%20Animals%20pilot">Become a pilot partner</a><a class="button-ghost" href="contact.html">Contact Vatandosh</a></div></div>
+          <ul class="partner-points"><li>Sponsor a defined care category</li><li>Receive a concise monthly partner brief</li><li>See evidence and outcomes on this portal</li><li>Help build a replicable transparency model</li></ul>
+        </div>
+      </section>
+
+      <section class="section soft">
+        <div class="container split">
+          <div><span class="eyebrow">Data standard</span><h2>Clear labels are part of transparency.</h2><p class="lead">“Partner-reported” means Terra Vita provided the figure. “Reviewed” will mean Vatandosh checked the supporting record. “Pending” means the information has not yet been received or reconciled.</p></div>
+          <div class="source-note"><strong>Pilot limitation:</strong> This is not a live accounting system. Data is manually updated and may lag behind shelter activity. Financial totals will be based on Vatandosh’s designated-gift records and reviewed pilot documentation; local Terra Vita/Payme totals will be included only when a reliable reporting method is integrated.</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div><a class="brand" href="index.html"><img class="brand-logo" src="assets/logos/vatandosh-logo.png" alt="Vatandosh Connect"></a><p>Bringing the world to Uzbekistan and Uzbekistan to the world.</p></div>
+        <div><h3>Contact</h3><p>522 Colony Woods Dr<br>Chapel Hill, NC 27517<br>Ph: 919 823-2426<br>info@vatandosh.org</p></div>
+        <div><h3>Explore</h3><ul><li><a href="terra-vita-samarkand.html">Terra Vita Samarkand</a></li><li><a href="terra-vita-transparency.html">Terra Vita transparency</a></li><li><a href="donate.html">Donate</a></li><li><a href="transparency.html">Vatandosh transparency</a></li><li><a href="privacy-policy.html">Privacy Policy</a></li></ul></div>
+      </div>
+      <div class="container footer-bottom">Vatandosh Connect is a 501(c)(3) nonprofit organization. EIN: 83-4433534. (c) <span data-year></span> All rights reserved.</div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      (async function hydrateTransparencyPortal() {
+        try {
+          const response = await fetch("data/terra-vita-transparency.json?v=2026-08-07");
+          if (!response.ok) return;
+          const data = await response.json();
+          const currency = new Intl.NumberFormat("en-US", { style: "currency", currency: data.currency || "USD", maximumFractionDigits: 0 });
+          document.querySelectorAll("[data-financial]").forEach((node) => {
+            const value = data.financials[node.dataset.financial];
+            node.textContent = typeof value === "number" ? currency.format(value) : "—";
+          });
+          if (data.animals) {
+            document.querySelector('[data-animal="onsite"]').textContent = data.animals.onsite;
+            document.querySelector('[data-animal="fosterTemporary"]').textContent = data.animals.fosterTemporary;
+          }
+          if (data.needs) document.querySelector('[data-need="monthlyFoodUsd"]').textContent = Number(data.needs.monthlyFoodUsd).toLocaleString("en-US");
+          if (data.latestUpdate) {
+            document.querySelector("[data-update-date]").textContent = new Date(data.latestUpdate.date + "T12:00:00").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+            document.querySelector("[data-update-title]").textContent = data.latestUpdate.title;
+            document.querySelector("[data-update-summary]").textContent = data.latestUpdate.summary;
+            document.querySelector("[data-update-source]").textContent = data.latestUpdate.sourceLabel;
+          }
+          document.querySelector("[data-last-updated]").textContent = new Date(data.lastUpdated + "T12:00:00").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+        } catch (error) {
+          console.info("Portal is showing its embedded fallback data.");
+        }
+      })();
+    </script>
+  </body>
+</html>
