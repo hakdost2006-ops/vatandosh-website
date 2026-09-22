@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Terra Vita Pilot Transparency Portal | Vatandosh Connect</title>
     <meta name="description" content="Follow the Terra Vita animal welfare pilot in Samarkand: funds raised and used, current needs, animal counts, reports, evidence, and outcomes.">
+    <meta name="robots" content="noindex, nofollow">
     <meta property="og:title" content="Terra Vita Pilot Transparency Portal">
     <meta property="og:description" content="A manually updated public record of the Vatandosh–Terra Vita animal welfare pilot in Samarkand, Uzbekistan.">
     <meta property="og:type" content="website">
@@ -12,14 +13,25 @@
     <link rel="icon" href="assets/logos/vatandosh-logo.png" type="image/png">
     <link rel="stylesheet" href="styles.css?v=terra-vita-transparency-1">
     <style>
-      .portal-hero { min-height: auto; padding: 5.5rem 0 4.5rem; align-items: center; background: radial-gradient(circle at 78% 18%, rgba(214, 169, 59, 0.2), transparent 28%), radial-gradient(circle at 92% 88%, rgba(0, 154, 154, 0.23), transparent 33%), linear-gradient(135deg, #0b2831 0%, #0d4654 58%, #0067a8 100%); }
+      .portal-hero {
+        min-height: auto;
+        padding: 5.5rem 0 4.5rem;
+        align-items: center;
+        background:
+          radial-gradient(circle at 78% 18%, rgba(214, 169, 59, 0.2), transparent 28%),
+          radial-gradient(circle at 92% 88%, rgba(0, 154, 154, 0.23), transparent 33%),
+          linear-gradient(135deg, #0b2831 0%, #0d4654 58%, #0067a8 100%);
+      }
       .portal-hero::before { display: none; }
       .portal-hero .hero-content { padding: 0; }
       .portal-hero-grid { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(270px, 0.6fr); gap: 3rem; align-items: center; }
       .portal-hero h1 { max-width: 860px; font-size: clamp(2.65rem, 6vw, 5.4rem); line-height: 0.98; letter-spacing: -0.045em; }
       .portal-hero p { max-width: 730px; }
       .portal-kicker { display: flex; flex-wrap: wrap; gap: 0.65rem; margin-bottom: 1.25rem; }
-      .pilot-badge, .manual-badge, .data-badge { display: inline-flex; align-items: center; gap: 0.45rem; min-height: 30px; padding: 0.35rem 0.7rem; border-radius: 999px; font-size: 0.76rem; font-weight: 900; letter-spacing: 0.04em; text-transform: uppercase; }
+      .pilot-badge, .manual-badge, .data-badge {
+        display: inline-flex; align-items: center; gap: 0.45rem; min-height: 30px; padding: 0.35rem 0.7rem;
+        border-radius: 999px; font-size: 0.76rem; font-weight: 900; letter-spacing: 0.04em; text-transform: uppercase;
+      }
       .pilot-badge { background: var(--gold); color: var(--night); }
       .manual-badge { border: 1px solid rgba(255,255,255,0.32); color: white; background: rgba(255,255,255,0.08); }
       .manual-badge::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #7be1c3; box-shadow: 0 0 0 4px rgba(123,225,195,0.13); }
@@ -96,8 +108,26 @@
       .partner-points li { padding: 0.7rem 0 0.7rem 1.6rem; border-bottom: 1px solid var(--line); position: relative; font-weight: 700; }
       .partner-points li::before { content: "+"; position: absolute; left: 0; color: var(--teal); font-weight: 900; }
       .source-note { padding: 1rem; border-left: 4px solid var(--teal); background: var(--soft); color: var(--muted); font-size: 0.9rem; }
-      @media (max-width: 900px) { .portal-hero-grid, .snapshot-grid, .records-grid, .partner-panel { grid-template-columns: 1fr; } .hero-seal { display: none; } .financial-grid, .category-grid { grid-template-columns: repeat(2, 1fr); } .finance-card:last-child { grid-column: span 2; } .flow-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; } .flow-step:not(:last-child)::after { display: none; } .update-panel { grid-template-columns: 1fr; gap: 0.7rem; } }
-      @media (max-width: 620px) { .portal-hero { padding: 4.3rem 0 3.5rem; } .portal-hero h1 { font-size: clamp(2.55rem, 15vw, 4rem); } .financial-grid, .category-grid, .flow-grid, .donate-grid { grid-template-columns: 1fr; } .finance-card:last-child { grid-column: auto; } .animal-totals { grid-template-columns: 1fr; } .animal-total { padding-bottom: 1rem; border-right: 0; border-bottom: 1px solid rgba(255,255,255,0.18); } .gallery-placeholders { grid-template-columns: 1fr; } .gallery-placeholder { min-height: 86px; } .data-strip .container { display: block; } }
+      @media (max-width: 900px) {
+        .portal-hero-grid, .snapshot-grid, .records-grid, .partner-panel { grid-template-columns: 1fr; }
+        .hero-seal { display: none; }
+        .financial-grid, .category-grid { grid-template-columns: repeat(2, 1fr); }
+        .finance-card:last-child { grid-column: span 2; }
+        .flow-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+        .flow-step:not(:last-child)::after { display: none; }
+        .update-panel { grid-template-columns: 1fr; gap: 0.7rem; }
+      }
+      @media (max-width: 620px) {
+        .portal-hero { padding: 4.3rem 0 3.5rem; }
+        .portal-hero h1 { font-size: clamp(2.55rem, 15vw, 4rem); }
+        .financial-grid, .category-grid, .flow-grid, .donate-grid { grid-template-columns: 1fr; }
+        .finance-card:last-child { grid-column: auto; }
+        .animal-totals { grid-template-columns: 1fr; }
+        .animal-total { padding-bottom: 1rem; border-right: 0; border-bottom: 1px solid rgba(255,255,255,0.18); }
+        .gallery-placeholders { grid-template-columns: 1fr; }
+        .gallery-placeholder { min-height: 86px; }
+        .data-strip .container { display: block; }
+      }
     </style>
   </head>
   <body>
