@@ -1,72 +1,91 @@
 {
-  "lastUpdated": "September 21, 2026",
+  "lastUpdated": "September 28, 2026",
   "campaignStatus": "Vatandosh Terra Vita Support Fund is active",
   "shelterSnapshot": {
     "animalsInCare": "More than 160",
     "location": "Samarkand region, Uzbekistan",
     "primaryNeed": "Help addressing a threat to the shelter's continued operation at its current site, plus food, medicine, veterinary care, sterilization support, shelter supplies, and adoption outreach",
-    "source": "Terra Vita public Telegram post dated September 6, 2026"
+    "source": "Terra Vita public Telegram post dated September 6, 2026; this is a dated shelter-reported count, not a new September 28 census",
+    "url": "https://t.me/terrasamarkand/21466"
   },
-  "weeklyMessage": "Terra Vita is a care center for homeless dogs and cats in Samarkand. Its September 6 statement that continued operation at the current site and the welfare of more than 160 animals are under threat remains the latest verified shelter-wide status. The latest public Telegram appeal, dated September 20, seeks a home for a ginger kitten in Samarkand; a September 12 post also seeks a home for a kitten.",
+  "weeklyMessage": "Terra Vita renewed its request for help, public attention, and reposts on September 22. On September 23, the shelter thanked a visitor for practical support and a donation. A September 27 community appeal seeks a home for a gentle, litter-trained four-month-old kitten in Samarkand. The September 6 statement about a threat to the shelter's continued operation remains the latest detailed shelter-site statement verified in this review; no resolution was verified.",
   "urgentNeeds": [
     "Monthly food support for dogs and cats",
     "Veterinary medicines and emergency treatment",
     "Wet food and ongoing veterinary aftercare for animals with special medical needs",
     "Sterilization and vaccination support",
     "Cleaning supplies, bedding, transport, and repair materials",
-    "Fresh water access during hot weather, including bowls for homeless animals",
     "Temporary foster care for young animals awaiting homes",
     "Adoption outreach, reposting, and responsible ownership education",
-    "Public attention and practical help addressing the reported threat to the shelter's continued operation at its current site"
-    ,"Used corrugated metal to cover animal kennels and enclosures"
+    "Public attention and practical help addressing the reported threat to the shelter's continued operation at its current site",
+    "Used corrugated metal to cover animal kennels and enclosures"
   ],
   "featuredAnimals": [
     {
+      "name": "Four-month-old kitten seeking a home",
+      "type": "Cat",
+      "status": "Community adoption appeal shared on Telegram",
+      "story": "A September 27 appeal shared by Terra Vita seeks a home in Samarkand for a four-month-old kitten described as gentle and litter-trained. Contact the poster for current availability.",
+      "url": "https://t.me/terrasamarkand/21514"
+    },
+    {
       "name": "Chelsea",
       "type": "Dog",
-      "status": "Available through Terra Vita",
-      "story": "Chelsea is listed on Terra Vita's dog adoption page. Visitors can follow the official shelter link for the latest adoption details.",
+      "status": "Previously listed by Terra Vita; confirm availability",
+      "story": "Chelsea appeared in Terra Vita's official adoption listings at the last successful review. Current availability could not be independently reconfirmed on September 28; please check with the shelter.",
       "url": "https://www.terra-vita.uz/ru/find-pet/dogs"
     },
     {
       "name": "Mika",
       "type": "Cat",
-      "status": "Available through Terra Vita",
-      "story": "Mika is listed on Terra Vita's cat adoption page. Visitors can follow the official shelter link for the latest adoption details.",
+      "status": "Previously listed by Terra Vita; confirm availability",
+      "story": "Mika appeared in Terra Vita's official adoption listings at the last successful review. Current availability could not be independently reconfirmed on September 28; please check with the shelter.",
       "url": "https://www.terra-vita.uz/ru/find-pet/cats"
     },
     {
       "name": "Dyson",
       "type": "Dog",
-      "status": "In Terra Vita care",
-      "story": "Terra Vita says Dyson was rescued from a garbage site after being abandoned while sick and very thin. The shelter reports that he is now about eight months old, healthy, vaccinated, and neutered.",
+      "status": "Shelter update dated September 8",
+      "story": "In its September 8 post, Terra Vita reported that Dyson had recovered after rescue, was about eight months old, and was vaccinated and neutered. This is a dated shelter update; no newer individual status was verified.",
       "url": "https://t.me/terrasamarkand/21488"
     },
     {
       "name": "Ginger kitten seeking a home",
       "type": "Cat",
       "status": "Community adoption appeal shared on Telegram",
-      "story": "A September 20 Samarkand appeal shared by Terra Vita seeks a home for a young ginger kitten shown in the post.",
+      "story": "A September 20 Samarkand appeal shared by Terra Vita seeks a home for a young ginger kitten shown in the post. Contact the poster for current availability.",
       "url": "https://t.me/terrasamarkand/21509"
-    },
-    {
-      "name": "Kitten seeking a home",
-      "type": "Cat",
-      "status": "Community adoption appeal shared on Telegram",
-      "story": "A September 12 Samarkand appeal shared by Terra Vita seeks a home for a kitten.",
-      "url": "https://t.me/terrasamarkand/21508"
     }
   ],
   "updates": [
+    {
+      "date": "September 27, 2026",
+      "title": "Four-month-old kitten seeks a home",
+      "text": "A community appeal shared by Terra Vita seeks a home in Samarkand for a four-month-old kitten described as gentle and litter-trained.",
+      "url": "https://t.me/terrasamarkand/21514"
+    },
+    {
+      "date": "September 23, 2026",
+      "title": "Terra Vita thanks a supporter for visiting and helping",
+      "text": "Terra Vita reports that Nodir Akhmedov visited the shelter and made a donation to help its animals. This is a shelter-reported contribution, not a Vatandosh receipt or independently audited financial entry.",
+      "url": "https://t.me/terrasamarkand/21512"
+    },
+    {
+      "date": "September 22, 2026",
+      "title": "Shelter renews request for help and reposts",
+      "text": "In the caption accompanying a public video, Terra Vita asks for help, public attention, and reposts. The caption gives no further detail about the requested help.",
+      "url": "https://t.me/terrasamarkand/21511"
+    },
     {
       "date": "September 20, 2026",
       "title": "Ginger kitten seeks a home in Samarkand",
       "text": "A public Telegram appeal shared by Terra Vita seeks a home for a young ginger kitten shown in the post."
     },
     {
-      "date": "September 12, 2026",
+      "date": "September 20, 2026",
       "title": "Kitten seeks a home in Samarkand",
-      "text": "A public Telegram appeal shared by Terra Vita seeks a home for a kitten."
+      "text": "A public Telegram appeal shared by Terra Vita seeks a home for a kitten.",
+      "url": "https://t.me/terrasamarkand/21508"
     },
     {
       "date": "September 11, 2026",
@@ -86,7 +105,7 @@
     {
       "date": "September 8, 2026",
       "title": "Kittens seek homes in Samarkand",
-      "text": "A community appeal shared by Terra Vita seeks homes for affectionate, playful kittens described as litter-trained."
+      "text": "A community appeal shared by Terra Vita seeks homes for kittens in Samarkand."
     },
     {
       "date": "September 8, 2026",
@@ -347,6 +366,18 @@
     {
       "label": "Terra Vita Telegram public archive",
       "url": "https://t.me/s/terrasamarkand"
+    },
+    {
+      "label": "Terra Vita support page",
+      "url": "https://www.terra-vita.uz/ru/help"
+    },
+    {
+      "label": "Terra Vita help guide",
+      "url": "https://www.terra-vita.uz/ru/blog/289-kak-nam-pomoch-prostoj-gajd-dlya-dobrykh-serdets"
+    },
+    {
+      "label": "Terra Vita blog",
+      "url": "https://www.terra-vita.uz/ru/blog"
     }
   ]
 }
